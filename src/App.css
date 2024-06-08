@@ -1,0 +1,82 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .app {
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #4b6cb7;
+    padding: 20px;
+    color: white;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header nav {
+    margin-top: 10px;
+  }
+  
+  .header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  .job-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .job-card {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .job-type {
+    font-weight: bold;
+    color: #4b6cb7;
+  }
+  
+  .job-card h3 {
+    margin: 10px 0;
+  }
+  
+  .job-salary {
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  .job-location {
+    color: #6c757d;
+  }
+  
+  .job-card button {
+    background-color: #4b6cb7;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .job-card button:hover {
+    background-color: #3a54a0;
+  }
+  
