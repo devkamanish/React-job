@@ -1,7 +1,0 @@
-
-Q->What does outlet component do in router
-Ans : It is a component which is  used within a parent route component to specify where the nested route components should be displayed.
-
-
-joblistings 
-NAvbar
