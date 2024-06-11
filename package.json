@@ -1,3 +1,4 @@
+
 {
   "homepage": "https://devkamanish.github.io/project-reactjob",
   "name": "project-reactjob",
@@ -9,7 +10,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "server": "json-server --watch src/jobs.json --port 8000",
+    "server": "json-server --watch public/jobs.json --port 8000",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -38,3 +39,5 @@
     "vite": "^5.2.0"
   }
 }
+
+

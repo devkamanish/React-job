@@ -118,3 +118,4 @@ const jobLoader = async ({ params }) => {
 };
 
 export { JobPage as default, jobLoader };
+

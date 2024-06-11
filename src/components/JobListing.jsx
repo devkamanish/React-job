@@ -10,7 +10,7 @@ const JobListing = ({ job }) => {
   if (!showFullDescription) {
     description = description.substring(0, 90) + '...';
   }
-
+  
   return (
     <div className='bg-white rounded-xl shadow-md relative'>
       <div className='p-4'>
@@ -49,5 +49,6 @@ const JobListing = ({ job }) => {
   );
 };
 export default JobListing;
+
 
 
