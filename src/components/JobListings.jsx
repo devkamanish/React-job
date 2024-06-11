@@ -44,3 +44,5 @@ const JobListings = ({ isHome = false }) => {
   );
 };
 export default JobListings;
+
+
